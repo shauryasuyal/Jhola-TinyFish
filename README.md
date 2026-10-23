@@ -13,23 +13,6 @@ Jhola checks live prices on **Blinkit**, **Zepto** and **Swiggy Instamart**, wor
 
 </div>
 
----
-
-## 📌 Table of contents
-- [Why Jhola](#-why-jhola)
-- [What it does](#-what-it-does)
-- [How a basket gets planned](#-how-a-basket-gets-planned)
-- [The optimiser](#-the-optimiser)
-- [Hinglish list parser](#-hinglish-list-parser)
-- [Safety by design](#-safety-by-design)
-- [Failure handling](#-failure-handling)
-- [Built on TinyFish](#-built-on-tinyfish)
-- [Getting started](#-getting-started)
-- [Project structure](#-project-structure)
-- [API reference](#-api-reference)
-
----
-
 ## 💡 Why Jhola
 
 Quick-commerce prices aren't the same across apps, and the sticker price isn't what you pay. A ₹2 cheaper item can end up ₹30 more expensive once a delivery fee or small-cart fee kicks in. Finding the real cheapest basket means checking three apps item by item and doing fee maths in your head. Most people don't, and older parents definitely don't.
