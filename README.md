@@ -4,6 +4,8 @@
 
 ### One grocery list. Three apps. The cheapest *real* basket.
 
+🏆 **1st Runner-Up, TinyFish Hackathon 2026**
+
 Type your list the way you'd say it: `doodh 2 packet, atta 5kg, maggi 4, dhaniya`.<br/>
 Jhola checks live prices on **Blinkit**, **Zepto** and **Swiggy Instamart**, works out the cheapest way to buy everything **after delivery, handling and small-cart fees**, fills the carts on your own accounts, and **stops at the payment page**.
 
