@@ -1,6 +1,6 @@
 <div align="center">
 
-# üõçÔ∏è Jhola
+# 🛍️ Jhola
 
 ### One grocery list. Three apps. The cheapest *real* basket.
 
@@ -15,7 +15,7 @@ Jhola checks live prices on **Blinkit**, **Zepto** and **Swiggy Instamart**, wor
 
 ---
 
-## üìå Table of contents
+## 📌 Table of contents
 - [Why Jhola](#-why-jhola)
 - [What it does](#-what-it-does)
 - [How a basket gets planned](#-how-a-basket-gets-planned)
@@ -30,98 +30,98 @@ Jhola checks live prices on **Blinkit**, **Zepto** and **Swiggy Instamart**, wor
 
 ---
 
-## üí° Why Jhola
+## 💡 Why Jhola
 
-Quick-commerce prices aren't the same across apps, and the sticker price isn't what you pay. A ‚Çπ2 cheaper item can end up ‚Çπ30 more expensive once a delivery fee or small-cart fee kicks in. Finding the real cheapest basket means checking three apps item by item and doing fee maths in your head. Most people don't, and older parents definitely don't.
+Quick-commerce prices aren't the same across apps, and the sticker price isn't what you pay. A ₹2 cheaper item can end up ₹30 more expensive once a delivery fee or small-cart fee kicks in. Finding the real cheapest basket means checking three apps item by item and doing fee maths in your head. Most people don't, and older parents definitely don't.
 
 **Jhola is built for them.** A family member connects the apps once. After that, Mom or Dad just types (or pastes) the weekly list in plain Hinglish and taps **Approve**.
 
 ---
 
-## ‚ú® What it does
+## ✨ What it does
 
 | Tab | What you get |
 |---|---|
-| üß∫ **Basket** (Jhola) | One list ‚Üí live prices from 3 apps ‚Üí the cheapest plan after fees (one app or a split) ‚Üí carts filled on your accounts ‚Üí you pay |
-| üõí **Order** | *"2 Vaseline lip balm from Blinkit"*: finds the product, asks once ("Is this it?") and stops searching the moment you say yes |
-| üîç **Compare** | Best in-stock price for any product across online stores, with a screenshot of the winning listing as proof |
-| üìù **Forms** | Two-phase form filling. A dry run shows every value it *would* type, and it submits only after you approve |
-| üïò **History** | Every run with its live log, results and TinyFish cost |
-| ‚öôÔ∏è **Setup** | Connect Blinkit / Zepto / Instamart once, with your own phone and OTP |
-| üë§ **Me** | Name, phone, address and PIN code, used for forms and location |
+| 🧺 **Basket** (Jhola) | One list → live prices from 3 apps → the cheapest plan after fees (one app or a split) → carts filled on your accounts → you pay |
+| 🛒 **Order** | *"2 Vaseline lip balm from Blinkit"*: finds the product, asks once ("Is this it?") and stops searching the moment you say yes |
+| 🔍 **Compare** | Best in-stock price for any product across online stores, with a screenshot of the winning listing as proof |
+| 📝 **Forms** | Two-phase form filling. A dry run shows every value it *would* type, and it submits only after you approve |
+| 🕘 **History** | Every run with its live log, results and TinyFish cost |
+| ⚙️ **Setup** | Connect Blinkit / Zepto / Instamart once, with your own phone and OTP |
+| 👤 **Me** | Name, phone, address and PIN code, used for forms and location |
 
-### üëµ Caretaker mode
+### 👵 Caretaker mode
 - **Default stores**, in order, for when no store is named
 - **Simple mode**: bigger text and fewer tabs
 - **Caretaker PIN**, so settings can't be changed by accident
 
 ---
 
-## üîÑ How a basket gets planned
+## 🔄 How a basket gets planned
 
 ```
  "doodh 2 packet, atta 5kg, maggi 4, dhaniya"
-                   ‚îÇ
-                   ‚ñº
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê
- ‚îÇ 1. PARSE (rules, no LLM)   ‚îÇ  milk 2 √ó 500 ml ¬∑ atta 5 kg ¬∑ maggi √ó4 ¬∑ coriander leaves
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î¨‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò
-               ‚ñº
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê   One Agent run per app, staggered 4 s apart,
- ‚îÇ 2. COLLECT                 ‚îÇ   stealth browser, India-proxy profile.
- ‚îÇ   Blinkit ‚îÇ Zepto ‚îÇ Insta  ‚îÇ   Top 3 results per item + any fees seen.
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î¨‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò   Blocked? ‚Üí scripted Browser-API scan fallback
-               ‚ñº
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê   Pack sizes ‚Üí price per kg / L / piece,
- ‚îÇ 3. MATCH                   ‚îÇ   packs needed, exact vs size variant vs substitute
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î¨‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò
-               ‚ñº
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê   All 7 app combinations + local search
- ‚îÇ 4. OPTIMISE                ‚îÇ   to cross free-delivery / small-cart thresholds
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î¨‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò
-               ‚ñº
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê   Live browser panels, then the basket table.
- ‚îÇ 5. PLAN  ‚Üê you review      ‚îÇ   Swap products, drop items, force one app, edit fees.
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î¨‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò   Totals update instantly in the browser.
-               ‚ñº  Approve
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê   Clears the cart, adds exact products,
- ‚îÇ 6. FILL                    ‚îÇ   reads the real bill. Stops before payment.
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î¨‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò
-               ‚ñº
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê   Planned vs actual. More than ‚Çπ10 apart ‚Üí asks you again.
- ‚îÇ 7. CHECK + LEARN           ‚îÇ   Real fees are saved for the next plan.
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚î¨‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò
-               ‚ñº
- ‚îå‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îê
- ‚îÇ 8. PAY  ‚Üê you, in your app ‚îÇ   Your logged-in session opens in a Jhola window
- ‚îî‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îÄ‚îò
+                   │
+                   ▼
+ ┌────────────────────────────┐
+ │ 1. PARSE (rules, no LLM)   │  milk 2 × 500 ml · atta 5 kg · maggi ×4 · coriander leaves
+ └─────────────┬──────────────┘
+               ▼
+ ┌────────────────────────────┐   One Agent run per app, staggered 4 s apart,
+ │ 2. COLLECT                 │   stealth browser, India-proxy profile.
+ │   Blinkit │ Zepto │ Insta  │   Top 3 results per item + any fees seen.
+ └─────────────┬──────────────┘   Blocked? → scripted Browser-API scan fallback
+               ▼
+ ┌────────────────────────────┐   Pack sizes → price per kg / L / piece,
+ │ 3. MATCH                   │   packs needed, exact vs size variant vs substitute
+ └─────────────┬──────────────┘
+               ▼
+ ┌────────────────────────────┐   All 7 app combinations + local search
+ │ 4. OPTIMISE                │   to cross free-delivery / small-cart thresholds
+ └─────────────┬──────────────┘
+               ▼
+ ┌────────────────────────────┐   Live browser panels, then the basket table.
+ │ 5. PLAN  ← you review      │   Swap products, drop items, force one app, edit fees.
+ └─────────────┬──────────────┘   Totals update instantly in the browser.
+               ▼  Approve
+ ┌────────────────────────────┐   Clears the cart, adds exact products,
+ │ 6. FILL                    │   reads the real bill. Stops before payment.
+ └─────────────┬──────────────┘
+               ▼
+ ┌────────────────────────────┐   Planned vs actual. More than ₹10 apart → asks you again.
+ │ 7. CHECK + LEARN           │   Real fees are saved for the next plan.
+ └─────────────┬──────────────┘
+               ▼
+ ┌────────────────────────────┐
+ │ 8. PAY  ← you, in your app │   Your logged-in session opens in a Jhola window
+ └────────────────────────────┘
 ```
 
 ---
 
-## üßÆ The optimiser
+## 🧮 The optimiser
 
 Shared by the server and the browser (`public/lib/basket.js`, pure functions), so every swap or drop re-plans instantly with no round trip.
 
-1. **Pack maths:** parses `"500 ml"`, `"4 x 70 g"`, `"Pack of 2"`, `"1 L"` and so on, then works out how many packs cover what you asked for. Each offer gets a unit price (‚Çπ/kg, ‚Çπ/L, ‚Çπ/pc).
+1. **Pack maths:** parses `"500 ml"`, `"4 x 70 g"`, `"Pack of 2"`, `"1 L"` and so on, then works out how many packs cover what you asked for. Each offer gets a unit price (₹/kg, ₹/L, ₹/pc).
 2. **Match quality:** every result is classed as **exact**, **size variant** or **substitute**. Items marked `only` / `sirf` / `no substitute` never get substitutes.
 3. **Fee model** per app: delivery fee, free-delivery threshold, handling fee, small-cart fee and threshold. Starts from estimates, then **learns the real fees** from your actual carts.
 4. **Search:** tries every non-empty subset of apps (7 combinations). For each, it assigns items to their cheapest app, then runs a **local search** that moves single items between apps to cross free-delivery or small-cart thresholds, or to empty an app entirely.
-5. **Ranking:** covers the most items first, then the lowest total. Plans within **‚Çπ5** of each other go to the better-rated app.
+5. **Ranking:** covers the most items first, then the lowest total. Plans within **₹5** of each other go to the better-rated app.
 6. **Savings:** compares the best plan with the best single-app plan, so you can see what the split is worth.
 
 ---
 
-## üó£Ô∏è Hinglish list parser
+## 🗣️ Hinglish list parser
 
 No LLM, just fast, testable rules (`lib/basket/parse.js`):
 
 | You type | Jhola understands |
 |---|---|
-| `doodh 2 packet` | milk ¬∑ 2 √ó 500 ml = 1 L |
-| `atta 5kg` | atta ¬∑ 5000 g |
-| `ek darjan ande` | eggs ¬∑ 12 pcs |
-| `amul butter sirf` | butter ¬∑ brand **Amul** ¬∑ no substitutes |
+| `doodh 2 packet` | milk · 2 × 500 ml = 1 L |
+| `atta 5kg` | atta · 5000 g |
+| `ek darjan ande` | eggs · 12 pcs |
+| `amul butter sirf` | butter · brand **Amul** · no substitutes |
 | `pyaz aur tamatar` | onion, tomato *(splits on `,` `;` `+` `and` `aur`)* |
 
 - **~95 Hinglish words:** doodh, cheeni, haldi, pyaz, dhaniya and more
@@ -131,7 +131,7 @@ No LLM, just fast, testable rules (`lib/basket/parse.js`):
 
 ---
 
-## üõ°Ô∏è Safety by design
+## 🛡️ Safety by design
 
 | Rule | How it's enforced |
 |---|---|
@@ -140,13 +140,13 @@ No LLM, just fast, testable rules (`lib/basket/parse.js`):
 | **No surprises** | Substitutes and size changes are flagged on the plan. The approval dialog warns that existing cart items will be cleared |
 | **Never handles secrets** | Agents never type passwords, OTPs, card, UPI or bank details. Forms lock out sensitive fields (password, OTP, CVV, Aadhaar, PAN and others) |
 | **Your login, typed by you** | You enter your phone and OTP straight into the app's own page in a streamed window. Jhola only keeps the saved TinyFish browser profile |
-| **`COMPLETED` ‚â† success** | Every result is checked for login walls, CAPTCHAs, "access denied" pages and empty data |
+| **`COMPLETED` ≠ success** | Every result is checked for login walls, CAPTCHAs, "access denied" pages and empty data |
 | **Forms submit once** | Dry run first, you approve every value, and the form is submitted at most once |
 | **Local data** | Profile, settings, fees and history live in `./data` as JSON on your machine |
 
 ---
 
-## üßØ Failure handling
+## 🧯 Failure handling
 
 | Failure | What Jhola does |
 |---|---|
@@ -156,12 +156,12 @@ No LLM, just fast, testable rules (`lib/basket/parse.js`):
 | Item not on any app | Listed as **Not available** on the plan |
 | SSE stream drops | Polls `GET /v1/runs/{id}` until the run finishes |
 | Transient API errors (429 / 5xx) | Retries with exponential backoff, respecting `Retry-After` |
-| Cart total ‚â† plan (more than ‚Çπ10 off) | Shows planned vs actual side by side and asks you again |
+| Cart total ≠ plan (more than ₹10 off) | Shows planned vs actual side by side and asks you again |
 | Out of credit | Plain-language message pointing to your TinyFish wallet |
 
 ---
 
-## üêü Built on TinyFish
+## 🐟 Built on TinyFish
 
 | TinyFish API | Used for |
 |---|---|
@@ -175,7 +175,7 @@ Every job tracks its own usage (agent runs, steps, browser minutes) and shows th
 
 ---
 
-## üöÄ Getting started
+## 🚀 Getting started
 
 ### Prerequisites
 - Node.js 18+
@@ -187,7 +187,7 @@ git clone https://github.com/shauryasuyal/Jhola-TinyFish.git
 cd Jhola-TinyFish
 npm install
 cp .env.example .env       # add TINYFISH_API_KEY
-npm start                  # ‚Üí http://localhost:4321
+npm start                  # → http://localhost:4321
 ```
 
 ### Test
@@ -212,37 +212,37 @@ npm test                   # 21 tests: parser, matcher, optimiser and safety (no
 
 ---
 
-## üóÇÔ∏è Project structure
+## 🗂️ Project structure
 
 ```
 Jhola-TinyFish/
-‚îú‚îÄ‚îÄ server.js               Express server: REST API, job runner and static UI
-‚îú‚îÄ‚îÄ lib/
-‚îÇ   ‚îú‚îÄ‚îÄ tinyfish.js         TinyFish client: Search, Fetch, Agent (SSE + polling), Browser, Profiles
-‚îÇ   ‚îú‚îÄ‚îÄ accounts.js         One-time app logins: streamed browser window, saved profiles
-‚îÇ   ‚îú‚îÄ‚îÄ jobs.js             Background jobs: live logs, approvals, SSE stream, cost tracking
-‚îÇ   ‚îú‚îÄ‚îÄ safety.js           Shared guardrails, sensitive-field and block detection
-‚îÇ   ‚îú‚îÄ‚îÄ stores.js           Store directory: aliases and on-site search URLs
-‚îÇ   ‚îú‚îÄ‚îÄ proof.js            Proof screenshots through the Browser API
-‚îÇ   ‚îú‚îÄ‚îÄ orderParse.js       "2 Amul butter from Blinkit" ‚Üí items + store
-‚îÇ   ‚îú‚îÄ‚îÄ store.js            Local JSON persistence in ./data
-‚îÇ   ‚îú‚îÄ‚îÄ basket/
-‚îÇ   ‚îÇ   ‚îú‚îÄ‚îÄ jhola.js        Collect ‚Üí plan ‚Üí fill ‚Üí check pipeline
-‚îÇ   ‚îÇ   ‚îú‚îÄ‚îÄ parse.js        Hinglish list parser
-‚îÇ   ‚îÇ   ‚îî‚îÄ‚îÄ scan.js         Browser-API fallback scan
-‚îÇ   ‚îî‚îÄ‚îÄ chores/
-‚îÇ       ‚îú‚îÄ‚îÄ order.js        Order: find, confirm once, hand off
-‚îÇ       ‚îú‚îÄ‚îÄ priceHunt.js    Compare: Search ‚Üí Fetch ‚Üí Agent ‚Üí proof
-‚îÇ       ‚îî‚îÄ‚îÄ formFill.js     Forms: dry run ‚Üí approve ‚Üí submit once
-‚îú‚îÄ‚îÄ public/
-‚îÇ   ‚îú‚îÄ‚îÄ index.html ¬∑ app.js ¬∑ styles.css
-‚îÇ   ‚îî‚îÄ‚îÄ lib/basket.js       Optimiser shared by server and browser
-‚îî‚îÄ‚îÄ test/                   node --test suites
+├── server.js               Express server: REST API, job runner and static UI
+├── lib/
+│   ├── tinyfish.js         TinyFish client: Search, Fetch, Agent (SSE + polling), Browser, Profiles
+│   ├── accounts.js         One-time app logins: streamed browser window, saved profiles
+│   ├── jobs.js             Background jobs: live logs, approvals, SSE stream, cost tracking
+│   ├── safety.js           Shared guardrails, sensitive-field and block detection
+│   ├── stores.js           Store directory: aliases and on-site search URLs
+│   ├── proof.js            Proof screenshots through the Browser API
+│   ├── orderParse.js       "2 Amul butter from Blinkit" → items + store
+│   ├── store.js            Local JSON persistence in ./data
+│   ├── basket/
+│   │   ├── jhola.js        Collect → plan → fill → check pipeline
+│   │   ├── parse.js        Hinglish list parser
+│   │   └── scan.js         Browser-API fallback scan
+│   └── chores/
+│       ├── order.js        Order: find, confirm once, hand off
+│       ├── priceHunt.js    Compare: Search → Fetch → Agent → proof
+│       └── formFill.js     Forms: dry run → approve → submit once
+├── public/
+│   ├── index.html · app.js · styles.css
+│   └── lib/basket.js       Optimiser shared by server and browser
+└── test/                   node --test suites
 ```
 
 ---
 
-## üîå API reference
+## 🔌 API reference
 
 <details>
 <summary><b>Show endpoints</b></summary>
@@ -259,10 +259,10 @@ Jhola-TinyFish/
 | `POST` | `/api/accounts/window/:sid/input` | Forward clicks and keys to the window |
 | `POST` | `/api/accounts/window/:sid/close` | Close the window (optionally save the login) |
 | `DELETE` | `/api/accounts/:app` | Disconnect an app |
-| `POST` | `/api/order/parse` ¬∑ `/api/order` | Parse or start an Order job |
+| `POST` | `/api/order/parse` · `/api/order` | Parse or start an Order job |
 | `POST` | `/api/price-hunt` | Start a Compare job |
 | `POST` | `/api/form-fill` | Start a Forms job |
-| `GET` | `/api/jobs` ¬∑ `/api/jobs/:id` | List jobs or get one job |
+| `GET` | `/api/jobs` · `/api/jobs/:id` | List jobs or get one job |
 | `GET` | `/api/jobs/:id/stream` | Live job updates (SSE) |
 | `POST` | `/api/jobs/:id/approve` | Approve or reject a plan, cart diff or form |
 | `POST` | `/api/jobs/:id/rerun` | Re-run a job |
@@ -277,6 +277,6 @@ Jhola-TinyFish/
 
 <div align="center">
 
-**Jhola** (‡§ù‡•ã‡§≤‡§æ): the cloth bag every Indian household takes to the sabzi mandi.
+**Jhola** (झोला): the cloth bag every Indian household takes to the sabzi mandi.
 
 </div>
