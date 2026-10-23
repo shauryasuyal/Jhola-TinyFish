@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛍️ Jhola
+# Jhola
 
 ### One grocery list. Three apps. The cheapest *real* basket.
 
@@ -257,9 +257,3 @@ Jhola-TinyFish/
 </details>
 
 ---
-
-<div align="center">
-
-**Jhola** (झोला): the cloth bag every Indian household takes to the sabzi mandi.
-
-</div>
